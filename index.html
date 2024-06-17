@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja Food</title>
+    <!-- Materialize icons, css & js -->
+     <link href="../../node_modules/materialize-css/dist/css/materialize.min.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link type="text/css" rel="stylesheet" href="/css/styles.css">
+     <script src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+     <!-- Manifest -->
+     <link rel="manifest" href="/manifest.json">
+     <!-- ios support -->
+     <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png">
+     <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+     <!-- Components -->
+     <script type="module" src="./js/components/navBar.js"></script>
+     <script type="module" src="./js/components/sideForm.js"></script>
+     <script type="module" src="./js/components/recipesCards.js"></script>
+</head>
+<body class="grey lighten-4">
+    <!-- top nav - side nav-->
+    <nav-bar>
+        <!-- recipes -->
+        <recipes-card>
+            <!-- form -->
+            <side-form></side-form>
+        </recipes-card>
+    </nav-bar>
+</body>
+</html>
